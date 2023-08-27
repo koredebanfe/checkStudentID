@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav, footer {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 1.2em;
+}
+
+nav {
+    background-color: green;
+    color: white;
+    font-size: 1em;
+}
+
+.nav--head {
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.nav--head,
+.nav--content {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav a,
+nav img {
+    color: white;
+}
+
+.nav--content a {
+    display: block;
+    z-index: 1;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    text-decoration: none;
+    border-bottom: 1px solid rgb(82, 81, 81);
+}
+
+ form input {
+    padding: 10px 10px;
+    outline: none;
+    border-radius: 5px;
+}
+
+h1 {
+    margin: 20px;
+}
+
+.button {
+    background-color: blue;
+    border: none;
+    color: white;
+    padding: 10px 10px;
+    text-decoration: none;
+}
+.show--list {
+    display: none;
+}
+
+.open--nav {
+    display: none;
+}
+
+.postcode--header {
+    background-color: rgba(236, 141, 141, 0.726);
+    padding: 20px;
+    line-height: 3;
+}
+
+.postcode--header [type="search"] {
+    width: 70vw;
+}
+
+.postcode h4 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.postcode--lists li {
+    display: inline-block;
+    list-style-type: none;
+    background-color: rgb(211, 207, 207);
+    margin-bottom: 5px;
+    padding: 5px ;
+    color: blue;
+}
+
+
+.postcode {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.postcode--related div {
+    border: 2px solid rgb(226, 223, 223);
+    border-radius: 5px;
+    margin: 30px 0;
+}
+
+.postcode--related h4 {
+    padding: 10px 20px;
+    margin: -10px 0;
+    background-color: rgb(211, 207, 207);
+}
+
+
+.postcode--related a {
+    text-decoration: none;
+    color: black;
+}
+
+.postcode--related p {
+    border-top: 1px solid rgb(226, 223, 223);
+    padding: 10px;
+}
+
+.postcode--check, 
+.postcode--represent{
+    text-align: center;
+    line-height: 2;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 15px;
+    background-color: rgb(226, 223, 223);
+}
+footer  {
+    background-color: black;
+    font-size: 0.9rem;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    color: white;
+    line-height: 2;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+footer div {
+    margin-bottom: 30px;
+}
+
+.footer--check {
+    text-align: center;
+    margin: 10px;
+    line-height: 2;
+}
+
+@media screen {
+    
+}
